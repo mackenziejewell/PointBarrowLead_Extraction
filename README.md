@@ -3,14 +3,13 @@
 Routine for extracting sea ice lead coordinates at 5 km geodesic steps from Level1B thermal infrared MODIS imagery.
 
 
-[Lead_Extraction.ipynb](https://github.com/mackenziejewell/PointBarrowLead_Extraction/blob/main/Lead_Extraction.ipynb)
+## [Lead_Extraction.ipynb](https://github.com/mackenziejewell/PointBarrowLead_Extraction/blob/main/Lead_Extraction.ipynb)
+
+The notebook **Lead_Extraction** shows an example routine to extract lead coordinates from a composite image of the Beaufort and Chukchi Seas ice cover on February 20, 2013 from Level1B thermal infrared (band 31) Terra/MODIS imagery files (https://doi.org/10.5067/MODIS/MOD021KM.061, https://doi.org/10.5067/MODIS/MOD03.061). For this example, files were downloaded from the [NASA LAADS DAAC](https://ladsweb.modaps.eosdis.nasa.gov/) and stored locally. All that is needed to run this example routine are the MODIS imagery files listed in `MODIS_file_list.txt` and the python packages used in the notebook.
 
 ---
-The notebook **Lead_Extraction** shows an example routine to extract lead coordinates from a composite image of the Beaufort and Chukchi Seas sea ice cover on February 20, 2013 from Level1B thermal infrared (band 31) Terra/MODIS imagery files (https://doi.org/10.5067/MODIS/MOD021KM.061, https://doi.org/10.5067/MODIS/MOD03.061). For this example, files were downloaded from the [NASA LAADS DAAC](https://ladsweb.modaps.eosdis.nasa.gov/) and stored locally. All that is needed to run this example routine are the MODIS imagery listed in the `MODIS_file_list.txt` file and the imported packages listed below.
 
----
-
-There are three main sections of this notebook.
+There are three main sections of the notebook.
 
 ### (1) Plotting imagery around Point Barrow
 Open hdf files of L1B thermal infrared MODIS imagery and save to a projected image in grayscale.
@@ -21,13 +20,4 @@ Manually select some lead coordinates and use [sci-kit image active contour mode
 ### (3) Re-indexing lead coordinates to 5-km geodesic steps
 Use [geopy](https://geopy.readthedocs.io/en/stable/) and [metpy](https://unidata.github.io/MetPy/latest/index.html#) to re-index/interpolate lead coordinates to fall along 5-km geodesic steps. 
 
-
----
-Lines where user input is required will be displayed between double lines as below.
-
-    #======================================
-    Folder = '/Users/user/imagery/'
-    #======================================
-    
- 
-MODIS files needed for use in this notebook are listed below.
+Additional instructions provided directly in the notebook.
