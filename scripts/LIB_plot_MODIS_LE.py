@@ -466,7 +466,7 @@ Latest recorded update:
     #---------------------------
     num_pairs = np.max(Image_Meta_paired[:,4])+1
     for ii in range(num_pairs):
-        print('Pair {}\n------'.format(ii))
+        print('\nPair {}\n------'.format(ii))
         for jj in np.where(Image_Meta_paired[:,4] ==ii)[0]:
             print(Image_Meta_paired[jj,0])
         print()

@@ -8,14 +8,12 @@
 #-------------
 # DEPENDENCIES:
 import numpy as np
-# #pip install geopy
-# import geopy.distance
+from matplotlib import pyplot as plt
+#pip install geopy
 from geopy.distance import geodesic
-# # pip install metpy
+# pip install metpy
 import metpy
 from metpy import interpolate
-# import cartopy.crs as ccrs
-# from matplotlib import pyplot as plt
 from pyproj import CRS
 #---------------------------------------------------------------------
 
@@ -35,10 +33,15 @@ OUTPUT:
 - LonArray (re-spaced lead longitudes, 0-360)
 
 DEPENDENCIES:
+import numpy as np
+from matplotlib import pyplot as plt
+from geopy.distance import geodesic
+import metpy
+from metpy import interpolate
 from pyproj import CRS
 
 Latest recorded update:
-01-13-2023
+01-22-2023
 
     """
     
