@@ -307,7 +307,7 @@ from LIB_plot_VIIRS import get_VIIRS_date
 from LIB_plot_MODIS import get_MODISdate
 
 Latest recorded update:
-10-07-2022
+01-22-2023
 
     """
 
@@ -326,10 +326,10 @@ Latest recorded update:
     # or look in single folder provided
     if MainFolder != []:
         folder_list = glob.glob(MainFolder+"*/")
-        print('Search within main folder: {}'.format(MainFolder))
+#         print('Search within main folder: {}'.format(MainFolder))
     elif SingleFolder != []:
         folder_list = glob.glob(SingleFolder)
-        print('Search in single folder: {}'.format(SingleFolder)) 
+#         print('Search in single folder: {}'.format(SingleFolder)) 
 
     # find list of hdf/nc files in each folder
     #--------------------------------------
