@@ -15,7 +15,7 @@ There are three main sections of the notebook.
 Open hdf files of L1B thermal infrared MODIS imagery and save to a projected image in grayscale.
 
 ### (2) Extracting lead coordinates from projected image
-Use interactive figure window to manually select some lead coordinates and use [sci-kit image active contour model](https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.active_contour) to fill in additional coordinates between selected points based on the brightness contrast across leads in thermal images.
+Use interactive figure window to manually select some lead coordinates with [mpl_point_clicker](https://mpl-point-clicker.readthedocs.io/en/latest/index.html#) and use [sci-kit image active contour model](https://scikit-image.org/docs/dev/api/skimage.segmentation.html#skimage.segmentation.active_contour) to fill in additional coordinates between selected points based on the brightness contrast across leads in thermal images.
 
 ### (3) Re-indexing lead coordinates to 5-km geodesic steps
 Use [geopy](https://geopy.readthedocs.io/en/stable/) and [metpy](https://unidata.github.io/MetPy/latest/index.html#) to re-index/interpolate lead coordinates to fall along 5-km geodesic steps. 
