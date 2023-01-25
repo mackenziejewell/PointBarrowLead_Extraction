@@ -1,5 +1,7 @@
 # PointBarrowLead_Extraction
 
+[![DOI](https://zenodo.org/badge/588696032.svg)](https://zenodo.org/badge/latestdoi/588696032)
+
 Routine for extracting sea ice lead coordinates at 5 km geodesic steps from Level1B thermal infrared MODIS imagery.
 
 ## [Lead_Extraction.ipynb](https://github.com/mackenziejewell/PointBarrowLead_Extraction/blob/main/Lead_Extraction.ipynb)
