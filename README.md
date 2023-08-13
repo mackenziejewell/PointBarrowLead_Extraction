@@ -8,7 +8,7 @@ Routine for extracting sea ice lead coordinates at 5 km geodesic steps from Leve
 
 The notebook **Lead_Extraction.ipynb** shows an example routine to extract lead coordinates from a composite image of the Beaufort and Chukchi Seas ice cover on February 20, 2013 from Level1B thermal infrared (band 31) Terra/MODIS imagery files (https://doi.org/10.5067/MODIS/MOD021KM.061, https://doi.org/10.5067/MODIS/MOD03.061). For this example, files were downloaded from the [NASA LAADS DAAC](https://ladsweb.modaps.eosdis.nasa.gov/) and stored locally. All that is needed to run this example routine are the MODIS imagery files listed in `MODIS_file_list.txt` and the python packages used in the notebook.
 
-<img src="https://github.com/mackenziejewell/PointBarrowLeadFormation/blob/main/example.gif" width=70% height=70%>
+<img src="https://github.com/mackenziejewell/PointBarrowLead_Extraction/blob/main/example.gif" width=70% height=70%>
 
 ---
 
